@@ -4,7 +4,7 @@ requires = [
     "packaging",
     "wheel",
     "setuptools-scm[toml]>=6.4",
-    "Cython>=0.29.16",
+    "Cython==0.29.36",
 
     # arm64 on Darwin supports Python 3.8 and above requires numpy>=1.21.0
     # (first version with arm64 wheels available)
@@ -79,7 +79,7 @@ dev = [
     "black[jupyter]",
     "build",
     "coverage",
-    "cython >=0.29",
+    "cython ==0.29.36",
     "packaging",
     "pre-commit",
     "pytest",
